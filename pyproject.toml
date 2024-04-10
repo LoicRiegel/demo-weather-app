@@ -7,6 +7,13 @@ readme = "README.md"
 requires-python = ">=3.10"
 license = { text = "BSD-3-Clause" }
 classifiers = ["Programming Language :: Python :: 3"]
+dependencies = ["requests", "typer[all]"]
+
+[project.optional-dependencies]
+test = ["pytest >= 8.1.1", "pre-commit"]
+
+[project.scripts]
+weather = "weather.cli:app"
 
 [build-system]
 requires = ["setuptools", "setuptools-scm"]
