@@ -1,6 +1,6 @@
 # Weather app (demo project)
 
-This demo weather app
+Demo python package of a CLI application fetching and displaying weather data for a given city.
 
 ## Install
 
